@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Changa:wght@200;300;400;500;600;700;800&family=Give+You+Glory&family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kaisei+Decol:wght@400;500;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Lobster&family=Merriweather+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+:root {
+    --MidnightCity: linear-gradient(to right, #232526, #414345);
+    --ElectricViolet: linear-gradient(to right, #4776E6, #8E54E9);
+    --TheStrain: linear-gradient(to right, #870000, #190A05);
+    --Aubergine: linear-gradient(to right, #AA076B, #61045F);
+    --light-grey: rgba(255, 255, 255, 0.887);
+    --Harvey: linear-gradient(to right, #1f4037, #99f2c8);
+    --darkgreen: linear-gradient(to right, #233329, #17521e);
+    --LoveAndLiberty: linear-gradient(to right, #200122, #6f0000);
+    --PresentationExcitement: linear-gradient(to right, #233329, #63d471);
+    --Jupiter: linear-gradient(to right, #ffd89b, #19547b);
+    --IIITDelhi: linear-gradient(to right, #808080, #3fada8);
+    ---Frost: linear-gradient(to right, #000428, #004e92);
+    ---ReversedFrost: linear-gradient(to left, #000428, #004e92);
+    --upSideDownFrost: linear-gradient(to top, #004e92, #000428);
+    --light-black: #2e2c2caf;
+    --Allison: 'Allison', cursive;
+    --AzeretMono: 'Azeret Mono', monospace;
+    --Chango: 'Changa', sans-serif;
+    --Kaisei: 'Kaisei Tokumin', serif;
+    --Lobster: 'Lobster', cursive;
+    --Pacifico: 'Pacifico', cursive;
+    --ZcoolQingKeHuangYou: 'ZCOOL QingKe HuangYou', cursive;
+    --Glory: 'Glory', sans-serif;
+    --Rubik: 'Rubik', sans-serif;
+    --Sniglet: 'Sniglet', cursive;
+    --Roboto: 'Roboto', sans-serif;
+    --Merriweather: 'Merriweather', serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    background-color: #f6f4f0;
+}
+html {
+    font-size: 10px;
+    color: white;
+}
+header {
+    width: 100%;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav > div:first-child {
+    margin-left: 1%;
+    font-family: 'Lobster', 'Roboto', 'Rubik', 'Merriweather sans', cursive, sans-serif;
+}
+header nav > div:last-child {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%
+}
+body > ol {
+    display: none;
+}
+header nav > div:last-child > div {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    display: none;
+}
+header > div:last-child > div:first-child{
+    font-family: var(--Glory);
+}
+header nav img {
+    width: 100%;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #200122;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6f0000;
+}
